@@ -270,7 +270,7 @@ gui_main();
 
 int main()
 try {
-pancake_window2 win{Point{100,100},600,400,"canvas"};
+pancake_window2 win{Point{100,100},600,400,"Pancake"};
 return gui_main();
 }
 catch(exception& e) {
